@@ -3,13 +3,13 @@
 .hero {
   font-family: "Nunito";
   display: flex;
-  gap: 155px;
+  justify-content: space-between;
   align-items: center;
   margin-top: 128px;
 
   &-text {
     padding-left: 154px;
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700px;
 
     & h2 {
@@ -30,14 +30,13 @@
       margin-top: 56px;
       font-size: 24px;
       font-weight: 400px;
-      width: 800px;
+      width: 700px;
     }
   }
   &-image {
-    position: absolute;
     & img {
-      margin-left: 1080px;
-      width: 800px;
+      width: 700px;
+      margin-right: 175px;
     }
   }
 }
