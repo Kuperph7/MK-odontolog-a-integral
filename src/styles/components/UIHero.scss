@@ -1,0 +1,43 @@
+@import "../variables.scss";
+
+.hero {
+  font-family: "Nunito";
+  display: flex;
+  gap: 155px;
+  align-items: center;
+  margin-top: 128px;
+
+  &-text {
+    padding-left: 154px;
+    font-size: 48px;
+    font-weight: 700px;
+
+    & h2 {
+      margin: 0;
+    }
+
+    &-name {
+      color: $black;
+      font-size: 24px;
+      font-weight: 400px;
+      padding-top: 16px;
+      & b {
+        color: $primary-green;
+      }
+    }
+
+    &-paragraph {
+      margin-top: 56px;
+      font-size: 24px;
+      font-weight: 400px;
+      width: 800px;
+    }
+  }
+  &-image {
+    position: absolute;
+    & img {
+      margin-left: 1080px;
+      width: 800px;
+    }
+  }
+}

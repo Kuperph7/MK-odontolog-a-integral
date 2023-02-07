@@ -1,0 +1,23 @@
+@import "../variables.scss";
+
+.services-content {
+  margin-top: 167px;
+  padding-left: 154px;
+  font-family: "Nunito";
+  & .services-content-titles {
+    & h2 {
+      color: $primary-green;
+      font-weight: 700;
+      font-size: 48px;
+      margin: 0;
+    }
+  }
+
+  & .services-content-proyects {
+    margin-top: 48px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 48px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+}

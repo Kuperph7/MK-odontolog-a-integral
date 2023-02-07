@@ -1,0 +1,60 @@
+@import "../variables.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+
+  & .img {
+    width: 59px;
+    height: 59px;
+  }
+
+  & .header-logo {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-left: 154px;
+
+    & h2 {
+      color: $black;
+      font-weight: 700;
+      font-size: 24px;
+    }
+  }
+
+  & .header-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding-right: 175px;
+    align-items: center;
+  }
+
+  & .header-nav ul a {
+    text-decoration: none;
+  }
+
+  & .relleno {
+    color: $black;
+    font-weight: 400;
+  }
+
+  & .relleno:hover {
+    transition: all 0.2s linear;
+    color: $secondary-green;
+    font-weight: 400;
+  }
+
+  & .home {
+    color: $primary-green;
+    font-weight: 700;
+  }
+
+  & .home:hover {
+    transition: all 0.2s linear;
+    color: $secondary-green;
+    font-weight: 700;
+  }
+}
