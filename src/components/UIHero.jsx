@@ -12,9 +12,9 @@ export function Hero() {
           Nunca está de más cuidar tu <b>salud dental</b>
         </h2>
         <p className="hero-text-paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud .
+          En MK odontología brindamos la mejor atención a nuestros pacientes.
+          Contamos con el mejor equipo de profesionales y excelentes
+          instalaciones para brindar el mejor de los servicios.
         </p>
         <UIButton />
       </div>

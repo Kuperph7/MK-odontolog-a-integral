@@ -31,6 +31,11 @@ export default function Header() {
                 Acerca de
               </a>
             </li>
+            <li>
+              <a href="#ubicacion" className="relleno">
+                Ubicación
+              </a>
+            </li>
             <UIButton />
           </ul>
         </nav>
