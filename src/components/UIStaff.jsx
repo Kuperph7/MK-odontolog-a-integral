@@ -6,6 +6,7 @@ export function UIStaff() {
     <div className="staff-content">
       <div className="staff-content-titles">
         <h2>Staff</h2>
+        <p>Conocé al equipo de MK odonotología integral</p>
       </div>
       <div className="staff-content-proyects">
         <UIStaffCard

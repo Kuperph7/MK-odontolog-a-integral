@@ -2,8 +2,10 @@
 
 .services-content {
   margin-top: 167px;
-  padding-left: 154px;
+  margin-left: 154px;
+  margin-right: 175px;
   font-family: "Nunito";
+
   & .services-content-titles {
     & h2 {
       color: $primary-green;
@@ -11,13 +13,18 @@
       font-size: 48px;
       margin: 0;
     }
+
+    & p {
+      font-size: 24px;
+      color: rgb(155, 155, 155);
+    }
   }
 
   & .services-content-proyects {
-    margin-top: 48px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 48px;
-    grid-auto-rows: minmax(100px, auto);
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 95px;
   }
 }

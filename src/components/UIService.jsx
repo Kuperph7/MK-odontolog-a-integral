@@ -6,6 +6,7 @@ export function UIServices() {
     <div className="services-content" id="servicios">
       <div className="services-content-titles">
         <h2>Servicios</h2>
+        <p>Todo lo que podemos hacer por tus dientes</p>
       </div>
       <div className="services-content-proyects">
         <UICards
