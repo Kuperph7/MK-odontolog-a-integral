@@ -28,3 +28,20 @@
     gap: 95px;
   }
 }
+
+@media (max-width: 700px) {
+  .services-content {
+    margin-left: 60px;
+    margin-right: 60px;
+
+    & .services-content-titles {
+      & h2 {
+        font-size: 40px;
+      }
+
+      & p {
+        font-size: 20px;
+      }
+    }
+  }
+}

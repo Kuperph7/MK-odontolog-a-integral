@@ -1,7 +1,7 @@
 import { UIButton } from "./UIButton";
 import "../styles/components/UIHero.scss";
 
-export function Hero() {
+export default function UIHero() {
   return (
     <div className="hero">
       <div className="hero-text">

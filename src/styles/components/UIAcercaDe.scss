@@ -20,3 +20,26 @@
     margin: 0;
   }
 }
+
+@media (max-width: 700px) {
+  .acerca-de-content {
+    margin-top: 167px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: "Nunito";
+
+    &-titles {
+      & h2 {
+        color: $primary-green;
+        font-weight: 700;
+        font-size: 40px;
+        margin: 0;
+      }
+    }
+    &-proyects {
+      font-weight: 300;
+      font-size: 20px;
+      margin: 0;
+    }
+  }
+}

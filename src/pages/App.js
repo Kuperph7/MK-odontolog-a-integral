@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-import { Hero } from "../components/UIHero";
+import Hero from "../components/UIHero";
 import { UIServices } from "../components/UIService";
 import { UIAcercaDe } from "../components/UIAcercaDe.jsx";
 import "../styles/global.scss";
@@ -16,8 +16,11 @@ function App() {
       <UIServices />
       <UIAcercaDe />
       <UIStaff />
+
+      {/* 
       <UIUbicacion />
       <Footer />
+       */}
     </div>
   );
 }

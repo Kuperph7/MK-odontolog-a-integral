@@ -40,3 +40,47 @@
     }
   }
 }
+
+@media (max-width: 700px) {
+  .hero {
+    font-family: "Nunito";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 128px;
+
+    &-text {
+      padding-left: 0px;
+      margin-left: 67px;
+      margin-right: 64px;
+      font-size: 24px;
+      font-weight: 700px;
+
+      & h2 {
+        margin: 0;
+      }
+
+      &-name {
+        color: $black;
+        font-size: 20px;
+        font-weight: 400px;
+        padding-top: 16px;
+        & b {
+          color: $primary-green;
+        }
+      }
+
+      &-paragraph {
+        margin-top: 56px;
+        font-size: 24px;
+        font-weight: 400px;
+        width: 270px;
+      }
+    }
+    &-image {
+      & img {
+        display: none;
+      }
+    }
+  }
+}

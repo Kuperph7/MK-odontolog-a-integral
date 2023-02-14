@@ -5,6 +5,8 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 24px;
+  z-index: 100;
+  box-shadow: 0 0 20px 10px rgb(247, 247, 247);
 
   & .img {
     width: 59px;
@@ -30,6 +32,7 @@
     gap: 20px;
     margin-right: 175px;
     align-items: center;
+    z-index: 99;
   }
 
   & .header-nav ul a {
@@ -56,5 +59,55 @@
     transition: all 0.2s linear;
     color: $secondary-green;
     font-weight: 700;
+  }
+}
+
+@media (min-width: 700px) {
+  .burguer {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    margin-top: 0px;
+    padding: 24px 0 24px 0;
+
+    & .header-logo {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding-left: 20px;
+      z-index: 100;
+
+      & h2 {
+        display: none;
+      }
+    }
+    .header-nav {
+      & ul {
+        background-color: white;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 48px;
+        width: 100%;
+        height: 100vh;
+        transition: 0.3s ease all;
+        margin: 0px;
+        padding-left: 0;
+        right: -1000px;
+      }
+      & .responsive_nav {
+        right: 0;
+        z-index: 99;
+      }
+    }
   }
 }

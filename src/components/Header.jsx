@@ -1,8 +1,15 @@
-import React from "react";
 import "../styles/layouts/UIHeader.scss";
 import { UIButton } from "./UIButton";
+import UIIconNavBar from "./UIIconNavBar";
+import { useRef } from "react";
 
 export default function Header() {
+  const navRef = useRef();
+
+  const showNavBar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
+
   return (
     <div>
       <div className="header" id="home">
@@ -15,7 +22,7 @@ export default function Header() {
           <h2>MKODONTOLOGÍA</h2>
         </div>
         <nav className="header-nav">
-          <ul>
+          <ul ref={navRef}>
             <li>
               <a href="#home" className="home">
                 Home
@@ -39,6 +46,9 @@ export default function Header() {
             <UIButton />
           </ul>
         </nav>
+        <div className="burguer" onClick={showNavBar}>
+          <UIIconNavBar />
+        </div>
       </div>
     </div>
   );
