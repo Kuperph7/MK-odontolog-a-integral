@@ -24,22 +24,22 @@ export default function Header() {
         <nav className="header-nav">
           <ul ref={navRef}>
             <li>
-              <a href="#home" className="home">
+              <a href="#home" className="home" onClick={showNavBar}>
                 Home
               </a>
             </li>
             <li>
-              <a href="#servicios" className="relleno">
+              <a href="#servicios" className="relleno" onClick={showNavBar}>
                 Servicios
               </a>
             </li>
             <li>
-              <a href="#acerca" className="relleno">
+              <a href="#acerca" className="relleno" onClick={showNavBar}>
                 Acerca de
               </a>
             </li>
             <li>
-              <a href="#ubicacion" className="relleno">
+              <a href="#ubicacion" className="relleno" onClick={showNavBar}>
                 Ubicación
               </a>
             </li>

@@ -16,11 +16,8 @@ function App() {
       <UIServices />
       <UIAcercaDe />
       <UIStaff />
-
-      {/* 
       <UIUbicacion />
       <Footer />
-       */}
     </div>
   );
 }
