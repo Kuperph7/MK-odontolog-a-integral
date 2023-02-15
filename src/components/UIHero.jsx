@@ -5,7 +5,7 @@ export default function UIHero() {
   return (
     <div className="hero">
       <div className="hero-text">
-        <h2>
+        <h2 className="hero-text-title">
           ¡Solo sonreí, <br /> nosotros nos encargamos!
         </h2>
         <h2 className="hero-text-name">
