@@ -19,7 +19,7 @@ export default function UICarouselStaff() {
         </div>
         <div>
           <UIStaffCard
-            image="https://m9p8e5u6.rocketcdn.me/wp-content/uploads/2019/04/shutterstock_Nestor-Rizhniak.jpg"
+            image="https://mir-s3-cdn-cf.behance.net/project_modules/disp/8e722e163875671.63ed25ed69c2e.jpeg"
             name="Oscar Ocampos"
             description="Lorem ipsum dolor sit amet consectetur adipiscing elit a, nec curae
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
@@ -28,8 +28,17 @@ export default function UICarouselStaff() {
         </div>
         <div>
           <UIStaffCard
-            image="https://www.cmolaflorida.com/images/equipo/med_width_1659346699ariadna-dentista.jpg"
-            name="Camila Jiorjieva"
+            image="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4ca56b163875703.63ed26088734a.jpeg"
+            name="Odontologo 2"
+            description="Lorem ipsum dolor sit amet consectetur adipiscing elit a, nec curae
+            molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
+            massa felis in iaculis."
+          />
+        </div>
+        <div>
+          <UIStaffCard
+            image="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/70e93b163875743.63ed262427deb.jpeg"
+            name="Odonotologa 3"
             description="Lorem ipsum dolor sit amet consectetur adipiscing elit a, nec curae
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."
@@ -38,7 +47,7 @@ export default function UICarouselStaff() {
         <div>
           <UIStaffCard
             image="https://yt3.googleusercontent.com/amA2qRpg3ItU9h04goS5486Iz-l89h5fxBMqOZXO3kAhikcvLyuvWiJstD5U0SOYI2wZEiAOzg=s900-c-k-c0x00ffffff-no-rj"
-            name="Odonotologa extra"
+            name="Odonotologo 4"
             description="Lorem ipsum dolor sit amet consectetur adipiscing elit a, nec curae
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."
