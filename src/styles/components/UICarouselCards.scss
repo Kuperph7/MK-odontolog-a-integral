@@ -1,20 +1,16 @@
 @import "../variables.scss";
 
-.carousel {
+.carouselCards {
   display: none;
 }
 
 @media (max-width: 700px) {
-  .carousel {
-    display: flex;
-    & .point {
-      display: block;
-      margin-left: 180px;
-      margin-bottom: 20px;
-      background-color: $secondary-green;
-      width: 20px;
-      height: 20px;
-      border-radius: 100%;
+  .carouselCards {
+    display: block;
+    .carousel {
+      .carousel-slider {
+        width: 390px;
+      }
     }
   }
 }

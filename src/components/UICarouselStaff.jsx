@@ -16,7 +16,6 @@ export default function UICarouselStaff() {
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."
           />
-          <span className="point"></span>
         </div>
         <div>
           <UIStaffCard
@@ -26,7 +25,6 @@ export default function UICarouselStaff() {
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."
           />
-          <span className="point"></span>
         </div>
         <div>
           <UIStaffCard
@@ -36,7 +34,6 @@ export default function UICarouselStaff() {
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."
           />
-          <span className="point"></span>
         </div>
         <div>
           <UIStaffCard
@@ -46,7 +43,6 @@ export default function UICarouselStaff() {
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."
           />
-          <span className="point"></span>
         </div>
       </Carousel>
     </div>

@@ -5,42 +5,37 @@ import "../styles/components/UICarouselCards.scss";
 
 export default function UICarousel() {
   return (
-    <div className="carousel">
+    <div className="carouselCards">
       <Carousel>
         <div>
           <UICards
             title="ORTODONCÍA"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           />
-          <span className="point"></span>
         </div>
         <div>
           <UICards
             title="ENDONDONCÍA"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           />
-          <span className="point"></span>
         </div>
         <div>
           <UICards
             title="ODONTOPEDIATRÍA"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           />
-          <span className="point"></span>
         </div>
         <div>
           <UICards
             title="PERIODONCÍA"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           />
-          <span className="point"></span>
         </div>
         <div>
           <UICards
             title="CIRUGÍA E IMPLANTES"
             text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           />
-          <span className="point"></span>
         </div>
       </Carousel>
     </div>
