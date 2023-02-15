@@ -41,6 +41,21 @@
   }
 }
 
+@media (max-width: 1528px) {
+  .hero {
+    font-family: "Nunito";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    &-image {
+      & img {
+        display: none;
+      }
+    }
+  }
+}
+
 @media (max-width: 700px) {
   .hero {
     font-family: "Nunito";

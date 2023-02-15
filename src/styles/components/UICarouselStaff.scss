@@ -1,0 +1,19 @@
+@import "../variables.scss";
+
+.carouselStaff {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .carouselStaff {
+    display: flex;
+    justify-content: center;
+
+    &-content {
+      margin-bottom: 180px;
+    }
+    & .point {
+      display: none;
+    }
+  }
+}

@@ -6,7 +6,7 @@
   margin-right: 175px;
   font-family: "Nunito";
 
-  & .services-content-titles {
+  &-titles {
     & h2 {
       color: $primary-green;
       font-weight: 700;
@@ -20,7 +20,7 @@
     }
   }
 
-  & .services-content-proyects {
+  &-proyects {
     margin-top: 56px;
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@
     margin-left: 60px;
     margin-right: 60px;
 
-    & .services-content-titles {
+    &-titles {
       & h2 {
         font-size: 40px;
       }
@@ -43,6 +43,9 @@
       & p {
         font-size: 20px;
       }
+    }
+    &-proyects {
+      display: none;
     }
   }
 }
