@@ -39,7 +39,7 @@ export function UIStaff() {
         />
         <UIStaffCard
           image="https://mir-s3-cdn-cf.behance.net/project_modules/fs/0ddf18163875795.63ed26438d409.jpeg"
-          name="Odonotologo 4"
+          name="German"
           description="Lorem ipsum dolor sit amet consectetur adipiscing elit a, nec curae
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."

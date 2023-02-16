@@ -5,12 +5,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 128px;
+  margin-top: 200px;
 
   &-text {
     padding-left: 154px;
     font-size: 40px;
     font-weight: 700px;
+
+    &-title {
+      font-size: 48px;
+    }
 
     & h2 {
       margin: 0;
