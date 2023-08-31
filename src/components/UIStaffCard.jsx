@@ -9,7 +9,7 @@ export default function UIStaffCard({ name, description, image }) {
         </div>
         <div className="staff-text">
           <h3>{name}</h3>
-          <p>{description}</p>
+          {/* <p>{description}</p> */}
         </div>
       </div>
     </div>

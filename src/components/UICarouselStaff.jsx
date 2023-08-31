@@ -26,7 +26,7 @@ export default function UICarouselStaff() {
             massa felis in iaculis."
           />
         </div>
-        <div>
+        {/* <div>
           <UIStaffCard
             image="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4ca56b163875703.63ed26088734a.jpeg"
             name="Odontologo 2"
@@ -34,11 +34,11 @@ export default function UICarouselStaff() {
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."
           />
-        </div>
+        </div> */}
         <div>
           <UIStaffCard
             image="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/70e93b163875743.63ed262427deb.jpeg"
-            name="Odonotologa 3"
+            name="Laura Diez"
             description="Lorem ipsum dolor sit amet consectetur adipiscing elit a, nec curae
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."
@@ -46,8 +46,8 @@ export default function UICarouselStaff() {
         </div>
         <div>
           <UIStaffCard
-            image="https://yt3.googleusercontent.com/amA2qRpg3ItU9h04goS5486Iz-l89h5fxBMqOZXO3kAhikcvLyuvWiJstD5U0SOYI2wZEiAOzg=s900-c-k-c0x00ffffff-no-rj"
-            name="Odonotologo 4"
+            image="https://mir-s3-cdn-cf.behance.net/project_modules/fs/0ddf18163875795.63ed26438d409.jpeg"
+            name="German Luques"
             description="Lorem ipsum dolor sit amet consectetur adipiscing elit a, nec curae
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."

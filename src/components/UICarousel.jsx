@@ -10,31 +10,31 @@ export default function UICarousel() {
         <div>
           <UICards
             title="ORTODONCÍA"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            text="La ortodoncia es el arte de corregir suavemente la sonrisa, realineando los dientes para una expresión radiante y saludable."
           />
         </div>
         <div>
           <UICards
             title="ENDONDONCÍA"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            text="La endodoncia rescata y preserva tus dientes, eliminando infecciones y brindando confort y funcionalidad duradera."
           />
         </div>
         <div>
           <UICards
             title="ODONTOPEDIATRÍA"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            text="La odontopediatría cuida las sonrisas más jóvenes con ternura, promoviendo hábitos saludables y garantizando un futuro bucal brillante."
           />
         </div>
         <div>
           <UICards
             title="PERIODONCÍA"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            text="La periodoncia revitaliza tus encías y fortalece tu sonrisa, previniendo y tratando enfermedades que afectan tu salud bucal."
           />
         </div>
         <div>
           <UICards
             title="CIRUGÍA E IMPLANTES"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            text="Las cirugías e implantes restauran la perfección oral, recuperando la plenitud de tu sonrisa y mejorando función y estética bucal."
           />
         </div>
       </Carousel>

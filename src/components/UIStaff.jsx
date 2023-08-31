@@ -12,9 +12,7 @@ export function UIStaff() {
         <UIStaffCard
           image="https://medios.uchceu.es/actualidad-ceu/wp-content/uploads/sites/2/2020/07/maria-alumnaodontologiaceu-scaled.jpg"
           name="Vanina Minervini"
-          description="Lorem ipsum dolor sit amet consectetur adipiscing elit a, nec curae
-            molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
-            massa felis in iaculis."
+          description="Odontologa"
         />
         <UIStaffCard
           image="https://mir-s3-cdn-cf.behance.net/project_modules/disp/8e722e163875671.63ed25ed69c2e.jpeg"
@@ -23,23 +21,23 @@ export function UIStaff() {
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."
         />
-        <UIStaffCard
+       {/*  <UIStaffCard
           image="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4ca56b163875703.63ed26088734a.jpeg"
           name="Odontologo 2"
           description="Lorem ipsum dolor sit amet consectetur adipiscing elit a, nec curae
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."
-        />
+        /> */}
         <UIStaffCard
           image="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/70e93b163875743.63ed262427deb.jpeg"
-          name="Odonotologa 3"
+          name="Laura Diez"
           description="Lorem ipsum dolor sit amet consectetur adipiscing elit a, nec curae
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."
         />
         <UIStaffCard
           image="https://mir-s3-cdn-cf.behance.net/project_modules/fs/0ddf18163875795.63ed26438d409.jpeg"
-          name="German"
+          name="German Luques"
           description="Lorem ipsum dolor sit amet consectetur adipiscing elit a, nec curae
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse
             massa felis in iaculis."

@@ -33,11 +33,11 @@ export default function Header() {
                 Servicios
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#acerca" className="relleno" onClick={showNavBar}>
                 Acerca de
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#ubicacion" className="relleno" onClick={showNavBar}>
                 Ubicación
