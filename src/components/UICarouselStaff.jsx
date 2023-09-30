@@ -10,7 +10,7 @@ export default function UICarouselStaff() {
       <Carousel>
         <div className="carouselStaff-content">
           <UIStaffCard
-            image="https://medios.uchceu.es/actualidad-ceu/wp-content/uploads/sites/2/2020/07/maria-alumnaodontologiaceu-scaled.jpg"
+            image="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fb6617181225563.65183d0683696.jpg"
             name="Vanina Minervini"
             description="Lorem ipsum dolor sit amet consectetur adipiscing elit a, nec curae
             molestie imperdiet nisl rhoncus turpis, sed tristique suspendisse

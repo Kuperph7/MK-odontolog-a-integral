@@ -10,7 +10,7 @@ export function UIStaff() {
       </div>
       <div className="staff-content-proyects">
         <UIStaffCard
-          image="https://medios.uchceu.es/actualidad-ceu/wp-content/uploads/sites/2/2020/07/maria-alumnaodontologiaceu-scaled.jpg"
+          image="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/fb6617181225563.65183d0683696.jpg"
           name="Vanina Minervini"
           description="Odontologa"
         />
