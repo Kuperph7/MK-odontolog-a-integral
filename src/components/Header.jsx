@@ -2,6 +2,7 @@ import "../styles/layouts/UIHeader.scss";
 import { UIButton } from "./UIButton";
 import UIIconNavBar from "./UIIconNavBar";
 import { useRef } from "react";
+import osde from "../public/images/Osde_medicina_logo.png"
 
 export default function Header() {
   const navRef = useRef();
@@ -21,6 +22,12 @@ export default function Header() {
           />
           <h2>MKODONTOLOGÍA</h2>
         </div>
+        <div>
+      <p className="trabajamos">
+        Trabajamos con:
+      <img src={osde} alt="" className="osde" />
+      </p>
+      </div>
         <nav className="header-nav">
           <ul ref={navRef}>
             <li>
